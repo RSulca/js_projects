@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    <title>P1</title>
+</head>
+
+<body>
+    <div class="container text-center mt-5">
+        <div class="display-4">Local Storage</div>
+        <div class="row mt-5">
+            <div class="col-sm-6">
+                <form class="form-group" action="#" id="formulario">
+                    <label class="d-block text-left" for="tweet">Tweet:</label>
+                    <textarea id="tweet" class="border-success form-control d-block w-100" rows="3"></textarea>
+                    <input type="submit" class="btn mt-3 btn-outline-success btn-block">
+                </form>
+            </div>
+            <div class="col-sm-6 pl-5">
+                <h2>Mis tweets</h2>
+                <div id="lista-tweets" class="text-left mt-3"></div>
+            </div>
+            <div id="anuncio" class="col-12 bg-danger rounded text-white p-3 d-none">
+                Ingrese al menos un caractér por favor.
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
